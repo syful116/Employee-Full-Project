@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\EmployeeManageentProject4.Forntend.props" />
+</Project>

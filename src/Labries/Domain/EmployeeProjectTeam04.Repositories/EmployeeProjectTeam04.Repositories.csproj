@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="12.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Infrastructure\EmployeeProjectTeam04.Infrastructure\EmployeeProjectTeam04.Infrastructure.csproj" />
+    <ProjectReference Include="..\..\Infrastructure\EmployeeProjectTeam04.Services.Model\EmployeeProjectTeam04.Services.Model.csproj" />
+    <ProjectReference Include="..\EmployeeProjectTeam04.Model\EmployeeProjectTeam04.Model.csproj" />
+    <ProjectReference Include="..\EmployeeProjectTeam04.Shared\EmployeeProjectTeam04.Shared.csproj" />
+  </ItemGroup>
+
+</Project>
